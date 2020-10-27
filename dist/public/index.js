@@ -12,7 +12,7 @@ var server = app.listen(PORT, function () {
 
 //static files
 
-app.use(express.static('dist/public'));
+app.use(express.static('public'));
 
 //Socket setup
 
