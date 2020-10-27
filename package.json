@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist/public",
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node dist/public/index",
+    "dev": "nodemon dist/public/index"
   },
   "author": "",
   "license": "ISC",
