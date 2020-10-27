@@ -2,8 +2,8 @@
 
 //var socket = io.connect('http://localhost:4000/');
 //var socket = io.connect('https://marie7900.github.io/chat/public/');
-//var socket = io.connect('/');
-var socket = io();
+var socket = io.connect();
+
 
 var message = document.querySelector('#message');
 var handle = document.querySelector('#handle');
