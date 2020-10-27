@@ -1,7 +1,7 @@
 //Make connection
 
-var socket = io.connect('http://localhost:4000/');
-//var socket = io.connect('https://hardcore-mcnulty-65d009.netlify.app/');
+//var socket = io.connect('http://localhost:4000/');
+var socket = io.connect('https://marie7900.github.io/chat/');
 
 var message = document.querySelector('#message');
 var handle = document.querySelector('#handle');
