@@ -1,8 +1,8 @@
 //Make connection
 
 //var socket = io.connect('http://localhost:4000/');
-var socket = io.connect('https://marie7900.github.io/chat/');
-//var socket = io.connect('/');
+//var socket = io.connect('https://marie7900.github.io/chat/');
+var socket = io();
 
 
 var message = document.querySelector('#message');
@@ -20,7 +20,7 @@ btn.addEventListener('click', function () {
     })
 })
 
-message.addEventListener('keypress', function (socket) {
+message.addEventListener('keypress', function () {
     socket.emit('typing', handle.value);
 })
 
